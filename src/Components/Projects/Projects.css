@@ -1,0 +1,95 @@
+.projects{
+    height: 620px;
+    background-color: #edf2f8;
+    padding-top: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    
+}
+.projects h2{
+    font-size: 2rem; 
+}
+
+.project{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 1px solid orange; */
+    gap: 40px;
+
+}
+
+.projectitem{
+    /* border: 1px solid green ; */
+    padding: 6px;
+    padding-top: 10px;
+    width: 350px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.projectdescription{
+    margin-top: 30px;
+    height: 180px;
+}
+
+.projectdescription p{
+    text-align: justify;
+
+}
+
+.productsifyimg{
+    width: 350px;
+    border-radius: 10px;
+}
+
+
+.links{
+    width: 100%;
+    height: 100px;
+    display: flex ;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.projectcode{
+
+    width: 80px;
+    height: 40px;
+    background-color: rgb(120, 36, 199);
+    border-radius: 4px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.projectcode:hover{
+    background-color: rgb(132, 0, 255);
+
+
+}
+
+.projectlink{
+    width: 80px;
+    height: 40px;
+    background-color: rgb(92, 226, 43);
+    border-radius: 4px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.projectlink:hover{
+    background-color: rgb(68, 255, 0);
+
+}

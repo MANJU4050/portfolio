@@ -1,0 +1,39 @@
+.about{
+    height: 600px;
+    background-color: white;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+  justify-content: flex-start;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.about h2{
+    font-size: 2rem;
+}
+
+.aboutitems{
+    display: flex;
+    gap: 40px;
+
+}
+
+.aboutitem{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    width: 220px;
+    height: 400px;
+    padding-top: 50px;
+}
+
+.frontendimg{
+    width: 220px;
+}
+
+.frontend,.backend,.uiux,.database{
+    padding-top: 30px;
+}
