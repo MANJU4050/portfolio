@@ -1,102 +1,221 @@
-.home{
-    height: 620px;
-    background-color: #edf2f8;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+@media only screen and (min-width:600px ) {
 
-}
-
-.manjunath{
-    width: 200px;
-    height: 100px;
-    background-color: rgb(237, 242, 248);
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    left: 180px;
-    top: 150px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-
-.job{
-    width: 150px;
-    height: 60px;
-    background-color: rgb(237, 242, 248);
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    left: 280px;
-    top: 300px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-
-
-.manju .manjuimg{
-    position: absolute;
-    width: 350px;
-    height: 350px;
-    top:120px;
-    bottom:0px;
-    left: 450px;
-    right: 0px;
-    border-radius: 50%; 
-}
-
-.nodejs .nodejsimg{
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    top:80px;
-    bottom:0px;
-    left: 820px;
-    right: 0px;
-    border-radius: 50%; 
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-
-}
-
-.physics .physicsimg{
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    top:240px;
-    bottom:0px;
-    left: 880px;
-    right: 0px;
-    border-radius: 50%; 
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-
-
-.js .jsimg{
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    top:400px;
-    bottom:0px;
-    left: 820px;
-    right: 0px;
-    border-radius: 50%; 
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
-}
-
-.msg{
-
-    width: 250px;
-    height: 50px;
-    background-color: rgb(237, 242, 248);
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    left: 500px;
-    top: 500px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    .home{
+        height: 620px;
+        background-color: #edf2f8;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
     
+    }
+    
+    .manjunath{
+        width: 200px;
+        height: 100px;
+        background-color: rgb(237, 242, 248);
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 180px;
+        top: 150px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    
+    .job{
+        width: 150px;
+        height: 60px;
+        background-color: rgb(237, 242, 248);
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 280px;
+        top: 300px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    
+    
+    .manju .manjuimg{
+        position: absolute;
+        width: 350px;
+        height: 350px;
+        top:120px;
+        bottom:0px;
+        left: 450px;
+        right: 0px;
+        border-radius: 50%; 
+    }
+    
+    .nodejs .nodejsimg{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        top:80px;
+        bottom:0px;
+        left: 820px;
+        right: 0px;
+        border-radius: 50%; 
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+    }
+    
+    .physics .physicsimg{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        top:240px;
+        bottom:0px;
+        left: 880px;
+        right: 0px;
+        border-radius: 50%; 
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    
+    
+    .js .jsimg{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        top:400px;
+        bottom:0px;
+        left: 820px;
+        right: 0px;
+        border-radius: 50%; 
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+    }
+    
+    .msg{
+    
+        width: 250px;
+        height: 50px;
+        background-color: rgb(237, 242, 248);
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 500px;
+        top: 500px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        
+    }
+
+    
+}
+
+
+@media only screen and (max-width:600px){
+
+    .home{
+        height: 620px;
+        background-color: #edf2f8;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+    
+    }
+    
+    .manjunath{
+        width: 120px;
+        height: 80px;
+        background-color: rgb(237, 242, 248);
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 20px;
+        top: 150px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    
+    .job{
+        width: 150px;
+        height: 60px;
+        background-color: rgb(237, 242, 248);
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 160px;
+        top: 165px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    
+    
+    .manju .manjuimg{
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        top:260px;
+        bottom:0px;
+        left: 20px;
+        right: 0px;
+        border-radius: 50%; 
+    }
+    
+    .nodejs .nodejsimg{
+        display: none;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        top:80px;
+        bottom:0px;
+        left: 820px;
+        right: 0px;
+        border-radius: 50%; 
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+    }
+    
+    .physics .physicsimg{
+        display: none;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        top:240px;
+        bottom:0px;
+        left: 880px;
+        right: 0px;
+        border-radius: 50%; 
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    
+    
+    .js .jsimg{
+        display: none;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        top:400px;
+        bottom:0px;
+        left: 820px;
+        right: 0px;
+        border-radius: 50%; 
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+    }
+    
+    .msg{
+        display: hidden;   
+        position: absolute; 
+        width: 250px;
+        height: 50px;
+        background-color: rgb(237, 242, 248);
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 500px;
+        top: 500px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        
+    }
+
+
+        
 }

@@ -29,9 +29,7 @@ const Home = () => {
           <div className='nodejs'>
             <img className='nodejsimg' src={nodejs} alt="" />
           </div>
-          <div className='msg'>
-    <p>This is site is in development stage</p>
-</div>
+          
 
     </div>
   )

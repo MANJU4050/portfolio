@@ -1,39 +1,94 @@
-.about{
-    height: 600px;
-    background-color: white;
-    padding-top: 80px;
-    display: flex;
-    flex-direction: column;
-  justify-content: flex-start;
-    align-items: center;
-    flex-grow: 1;
+@media screen and (min-width: 600px){
+
+    .about{
+        height: 600px;
+        background-color: white;
+        padding-top: 80px;
+        display: flex;
+        flex-direction: column;
+      justify-content: flex-start;
+        align-items: center;
+        flex-grow: 1;
+    }
+    
+    .about h2{
+        font-size: 2rem;
+    }
+    
+    .aboutitems{
+        display: flex;
+        gap: 40px;
+    
+    }
+    
+    .aboutitem{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+        width: 220px;
+        height: 400px;
+        padding-top: 50px;
+    }
+    
+    .frontendimg{
+        width: 220px;
+    }
+    
+    .frontend,.backend,.uiux,.database{
+        padding-top: 30px;
+    }
+    
+    
 }
 
-.about h2{
-    font-size: 2rem;
-}
 
-.aboutitems{
-    display: flex;
-    gap: 40px;
+    @media only screen and (max-width: 600px){
 
-}
-
-.aboutitem{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    text-align: center;
-    width: 220px;
-    height: 400px;
-    padding-top: 50px;
-}
-
-.frontendimg{
-    width: 220px;
-}
-
-.frontend,.backend,.uiux,.database{
-    padding-top: 30px;
-}
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .about{
+            height: 1340px;
+            background-color: white;
+            padding-top: 20px;
+            display: flex;
+            flex-direction: column;
+           justify-content: flex-start;
+            align-items: center;
+            }
+        
+        .about h2{
+            font-size: 2rem;
+            padding-bottom: 2px;
+        }
+        
+        .aboutitems{
+            display: flex;
+            flex-direction: column;
+        
+        }
+        
+        .aboutitem{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            text-align: center;
+            width: 220px;
+            height: 320px;
+            padding-top: 5px;
+        }
+        
+        .frontendimg{
+            width: 220px;
+        }
+        
+        .frontend,.backend,.uiux,.database{
+            padding-top: 5px;
+        }
+    }
+    
